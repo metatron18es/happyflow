@@ -1,0 +1,21 @@
+:root {
+  color-scheme: light;
+
+  --primary-100: #FF9F1C;
+  --primary-60: #FFBF66;
+
+  --secondary-140: #0012FF;
+  --secondary-120: #3341FF;
+  --secondary-60: #CCCFFF;
+
+  --gray-light: rgba(22, 21, 28, .2);
+
+  /* common colors */
+  --white: #fff;
+  --white-rgb: 255, 255, 255;
+  --default-black-rgb: 0, 0, 0;
+
+  font-family: var(--font);
+  font-weight: var(--font-regular);
+  font-size: var(--font-size-base);
+}

@@ -1,0 +1,101 @@
+.loading-icon {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  border: 3px solid;
+  border-color: var(--blue) var(--pale-blue) var(--pale-blue) var(--pale-blue);
+  animation: spinner .85s linear infinite;
+}
+
+.icon {
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  background-color: currentColor;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+}
+.home-icon {
+  -webkit-mask-image:url(@/assets/icons/home.svg);
+  mask-image:url(@/assets/icons/home.svg);
+}
+.assistance-icon {
+  -webkit-mask-image:url(@/assets/icons/assistance.svg);
+  mask-image:url(@/assets/icons/assistance.svg);
+}
+.departments-icon {
+  -webkit-mask-image:url(@/assets/icons/departments.svg);
+  mask-image:url(@/assets/icons/departments.svg);
+}
+.analytics-icon {
+  -webkit-mask-image:url(@/assets/icons/analytics.svg);
+  mask-image:url(@/assets/icons/analytics.svg);
+}
+.polls-icon {
+  -webkit-mask-image:url(@/assets/icons/polls.svg);
+  mask-image:url(@/assets/icons/polls.svg);
+}
+.personal-icon {
+  -webkit-mask-image:url(@/assets/icons/personal.svg);
+  mask-image:url(@/assets/icons/personal.svg);
+}
+.settings-icon {
+  -webkit-mask-image:url(@/assets/icons/settings.svg);
+  mask-image:url(@/assets/icons/settings.svg);
+}
+.emotions-icon {
+  -webkit-mask-image:url(@/assets/icons/emotions.svg);
+  mask-image:url(@/assets/icons/emotions.svg);
+}
+.wear-icon {
+  -webkit-mask-image:url(@/assets/icons/wear.svg);
+  mask-image:url(@/assets/icons/wear.svg);
+}
+.exit-icon {
+  -webkit-mask-image:url(@/assets/icons/exit.svg);
+  mask-image:url(@/assets/icons/exit.svg);
+}
+
+.notifications-icon {
+  -webkit-mask-image:url(@/assets/icons/notifications.svg);
+  mask-image:url(@/assets/icons/notifications.svg);
+}
+.search-icon {
+  -webkit-mask-image:url(@/assets/icons/search.svg);
+  mask-image:url(@/assets/icons/search.svg);
+}
+
+.arrow-down-icon {
+  -webkit-mask-image:url(@/assets/icons/arrow.svg);
+  mask-image:url(@/assets/icons/arrow.svg);
+}
+.arrow-up-icon {
+  -webkit-mask-image:url(@/assets/icons/arrow.svg);
+  mask-image:url(@/assets/icons/arrow.svg);
+  transform: rotateX(180deg);
+}
+.arrow-left-icon {
+  -webkit-mask-image:url(@/assets/icons/arrow.svg);
+  mask-image:url(@/assets/icons/arrow.svg);
+  transform: rotateY(90deg);
+}
+.arrow-right-icon {
+  -webkit-mask-image:url(@/assets/icons/arrow.svg);
+  mask-image:url(@/assets/icons/arrow.svg);
+  transform: rotateY(-90deg);
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
